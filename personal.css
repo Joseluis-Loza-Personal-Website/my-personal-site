@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(201, 199, 199);
+    
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    
+}
+
+.name {
+    font-size: 25px;
+    
+}
+
+.button {
+    border-radius: 5px;
+    background-color: beige;
+}
+
+main {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.icons {
+    height: 64px;
+    mix-blend-mode: multiply;
+    padding-left: 20px; 
+}
+
+h2 {
+    font-family: cursive;
+}
