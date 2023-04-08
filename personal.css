@@ -1,0 +1,61 @@
+/* homepage */
+.body1 {
+    background-color: rgb(201, 199, 199);
+}
+
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    
+}
+
+.name {
+    font-size: 25px;
+    
+}
+
+main {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.icons {
+    height: 64px;
+    mix-blend-mode: multiply;
+    padding-left: 20px; 
+}
+/* change to class on homepage.html */
+h2 {
+    font-family: cursive;
+}
+
+/* aboutme page */
+
+.pg2-h1 {
+    text-align: center;
+}
+.body2 {
+    background-color: rgb(201, 199, 199);
+    
+}
+
+.row1 {
+    border-bottom: 2px dashed black;
+}
+
+.row2 {
+    border-bottom: 2px dashed black;
+}
