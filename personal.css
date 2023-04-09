@@ -52,10 +52,15 @@ h2 {
     
 }
 
-.row1 {
-    border-bottom: 2px dashed black;
+.pic {
+    height: 183px;
+    width: 275px;
+    margin-right: 12px;
+    border-radius: 12px;
+  
 }
-
-.row2 {
+.flex-box{
+    display: flex;
     border-bottom: 2px dashed black;
+    padding-bottom: 12px;
 }
