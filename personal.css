@@ -1,6 +1,16 @@
-body {
+
+/* homepage */
+.body1 {
     background-color: rgb(201, 199, 199);
-    
+    padding-top: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 li {
@@ -9,24 +19,24 @@ li {
 
 li a {
     text-decoration: none;
+    color: black;
+    padding-right: 20px;
 }
-
+.open {
+    background: black;
+    color: white
+}
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid black;
-    
 }
 
 .name {
     font-size: 25px;
+    padding-left: 20px;
     
-}
-
-.button {
-    border-radius: 5px;
-    background-color: beige;
 }
 
 main {
@@ -42,6 +52,31 @@ footer{
     padding-left: 20px; 
 }
 
+/* change to class on homepage.html */
 h2 {
     font-family: cursive;
+}
+
+/* aboutme page */
+
+.pg2-h1 {
+    text-align: center;
+}
+.body2 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 50px;
+    
+}
+
+.pic {
+    height: 183px;
+    width: 275px;
+    margin-right: 12px;
+    border-radius: 12px;
+  
+}
+.flex-box{
+    display: flex;
+    border-bottom: 2px dashed black;
+    padding-bottom: 12px;
 }
