@@ -26,6 +26,10 @@ li a {
     color: black;
     padding-right: 20px;
 }
+
+li a:hover {
+    border-bottom: 2px solid black;
+}
 .open {
     background: black;
     color: white
