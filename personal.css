@@ -1,0 +1,178 @@
+
+/* homepage */
+.body1 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.mystery {
+    height: 280px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+
+li a:hover {
+    border-bottom: 2px solid black;
+}
+.open {
+    background: black;
+    color: white
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.name {
+    font-size: 25px;
+    padding-left: 20px;
+    
+}
+
+main {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.icons {
+    height: 64px;
+    mix-blend-mode: multiply;
+    padding-left: 20px; 
+}
+
+/* change to class on homepage.html */
+h2 {
+    font-family: cursive;
+}
+
+/* aboutme page */
+
+.pg2-h1 {
+    text-align: center;
+}
+.body2 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 50px;
+    
+}
+
+.pic {
+    height: 183px;
+    width: 275px;
+    margin-right: 12px;
+    border-radius: 12px;
+  
+}
+.flex-box{
+    display: flex;
+    border-bottom: 2px dashed black;
+    padding-bottom: 12px;
+}
+
+/* portfolio page */
+
+.body3 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 50px;
+}
+
+.pg3-h1 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center center;
+    
+}
+
+
+.pacman {
+    height: 150px;
+    padding: 40px;
+}
+.column1 {
+    grid-column: 2/3 ;
+    background-color: white;
+    justify-items: center;
+}
+.column1 h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.vault {
+    height:150px;
+    padding: 40px;
+}
+.column2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+}
+.column2 h2 {
+    text-align: center;
+    text-decoration: underline ;
+}
+
+.website {
+    height: 150px;
+    width: 280px;
+    padding: 40px;
+}
+.column3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: white;
+}
+.column3 h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/* Contact info page */
+
+.pg4-h1 {
+    text-align: center;
+}
+
+.body4 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 40px;
+}
+
+form {
+    text-align: center;
+    border: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
