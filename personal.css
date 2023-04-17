@@ -153,3 +153,22 @@ h2 {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+
+/* Contact info page */
+
+.pg4-h1 {
+    text-align: center;
+}
+
+.body4 {
+    background-color: rgb(201, 199, 199);
+    padding-top: 40px;
+}
+
+form {
+    text-align: center;
+    border: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
